@@ -70,7 +70,7 @@ const App = () => {
           {showAdminBoard && (
             <li className="nav-item">
               <Link to={"/admin"} className="nav-link">
-                Admin Board
+                Admin board
               </Link>
             </li>
           )}
@@ -93,7 +93,7 @@ const App = () => {
             </li>
             <li className="nav-item">
               <a href="/login" className="nav-link" onClick={logOut}>
-                LogOut
+                Logout
               </a>
             </li>
           </div>
